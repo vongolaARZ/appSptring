@@ -2,17 +2,17 @@ package com.appmarket.domain;
 
 public class PurchaseItem {
 
-    private int productID;
+    private int productId;
     private int quantity;
     private double total;
     private boolean active;
 
-    public int getProductID() {
-        return productID;
+    public int getProductId() {
+        return productId;
     }
 
-    public void setProductID(int productID) {
-        this.productID = productID;
+    public void setProductId(int productId) {
+        this.productId = productId;
     }
 
     public int getQuantity() {
