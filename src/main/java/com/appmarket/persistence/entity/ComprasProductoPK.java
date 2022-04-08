@@ -14,6 +14,8 @@ public class ComprasProductoPK implements Serializable {
     private Integer idProducto;
 
 
+
+
     public Integer getIdCompra() {
         return idCompra;
     }
