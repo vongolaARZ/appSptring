@@ -1,7 +1,7 @@
 package com.appmarket.persistence.mapper;
 
 
-import com.appmarket.domain.Purchase;
+import com.appmarket.domain.dto.Purchase;
 import com.appmarket.persistence.entity.Compra;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;

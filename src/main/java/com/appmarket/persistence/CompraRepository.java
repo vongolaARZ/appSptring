@@ -1,6 +1,6 @@
 package com.appmarket.persistence;
 
-import com.appmarket.domain.Purchase;
+import com.appmarket.domain.dto.Purchase;
 import com.appmarket.domain.repository.PurchaseRepository;
 import com.appmarket.persistence.crud.CompraCrudRepository;
 import com.appmarket.persistence.entity.Compra;

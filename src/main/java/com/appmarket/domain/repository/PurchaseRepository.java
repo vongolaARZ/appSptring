@@ -1,6 +1,6 @@
 package com.appmarket.domain.repository;
 
-import com.appmarket.domain.Purchase;
+import com.appmarket.domain.dto.Purchase;
 
 import java.util.List;
 import java.util.Optional;

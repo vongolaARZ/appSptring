@@ -1,4 +1,4 @@
-package com.appmarket.domain;
+package com.appmarket.domain.dto;
 
 
 

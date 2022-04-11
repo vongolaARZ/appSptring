@@ -1,6 +1,5 @@
 package com.appmarket.persistence.crud;
 
-import com.appmarket.domain.Purchase;
 import com.appmarket.persistence.entity.Compra;
 import org.springframework.data.repository.CrudRepository;
 
