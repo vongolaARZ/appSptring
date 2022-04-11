@@ -24,7 +24,7 @@ public class Compra {
     @Column(name= "comentario")
     private String comentario;
     @Column(name = "estado")
-    private Boolean estado;
+    private Character estado;
 
 
     @ManyToOne()
@@ -75,11 +75,11 @@ public class Compra {
         this.comentario = comentario;
     }
 
-    public Boolean getEstado() {
+    public Character getEstado() {
         return estado;
     }
 
-    public void setEstado(Boolean estado) {
+    public void setEstado(Character estado) {
         this.estado = estado;
     }
 
@@ -98,5 +98,7 @@ public class Compra {
     public void setCompras(List<ComprasProducto> compras) {
         this.compras = compras;
     }
+
+
 
 }

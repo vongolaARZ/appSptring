@@ -1,9 +1,9 @@
-package com.appmarket.persistence;
+package com.appmarket.persistence.entity;
 
 import com.appmarket.domain.dto.Purchase;
 import com.appmarket.domain.repository.PurchaseRepository;
 import com.appmarket.persistence.crud.CompraCrudRepository;
-import com.appmarket.persistence.entity.Compra;
+
 import com.appmarket.persistence.mapper.PurchaseMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;

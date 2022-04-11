@@ -27,8 +27,8 @@ public class PurchaseController {
 
     }
 
-    @GetMapping("/{id}")
-    public ResponseEntity<List<Purchase>> getByClient(@PathVariable("id") String clientId){
+    @GetMapping("/client/{idClient}")
+    public ResponseEntity<List<Purchase>> getByClient(@PathVariable("idClient") String clientId){
 
         return purchaseService.getByClient(clientId)
                 .map(purchases -> new ResponseEntity<>(purchases, HttpStatus.OK))
